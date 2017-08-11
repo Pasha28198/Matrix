@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Matrix; 
+    src: url(./font/Matrix.ttf); 
+   }
+
+#matrix{
+    width: 800px;
+    margin: 0 auto;
+    height: 500px;
+    background-color:#010101;
+    overflow: hidden;
+}
+
+ul{
+    float: left;
+    width: 20px;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    font: Matrix;
+    font-size:19px;
+}
+
